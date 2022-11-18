@@ -6,7 +6,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"gopkg.in/mgo.v2"
 
-	"github.com/akhil/mongo-golang/controllers"
+	"github.com/melinaco4/company-manager-mongo/controllers"
 )
 
 func main() {
