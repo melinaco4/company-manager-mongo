@@ -11,7 +11,7 @@ import (
 func main() {
 
 	r := httprouter.New()
-	uc := controllers.NewUserController(getSession())
+	uc := controllers.NewCompanyController(getSession())
 	r.GET("/company/:id", uc.GetCompany)
 	r.POST("/company", uc.CreateCompany)
 	r.DELETE("/company/:id", uc.DeleteCompany)
